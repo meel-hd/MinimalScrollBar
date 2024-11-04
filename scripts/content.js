@@ -1,6 +1,7 @@
 const cssScrollCustom = `
 body::-webkit-scrollbar {
     width: 0.5rem; /* width of the entire scrollbar */
+    height: 4px;
   }
   body::-webkit-scrollbar-track {
     background: transparent; /* color of the tracking area */
@@ -16,6 +17,7 @@ body::-webkit-scrollbar {
 
   body *::-webkit-scrollbar {
     width: 0.5rem; /* width of the entire scrollbar */
+    height: 4px;
   }
   body *::-webkit-scrollbar-track {
     background: transparent; /* color of the tracking area */
